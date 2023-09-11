@@ -32,18 +32,18 @@ def fizzbuzz(num):
 
 
 def calculator(operation, num1, num2):
-      if operation == "+":
+    if operation == "+":
         return num1 + num2
-      elif operation == "-":
+    elif operation == "-":
         return num1 - num2
-      elif operation == "*":
+    elif operation == "*":
         return num1 * num2
-      elif operation == "/":
+    elif operation == "/":
         if num2 != 0:
-          return num1 / num2
+            return num1 / num2
         else:
-          return "Can't divide by 0"
-      else:
+            return "Can't divide by 0"
+    else:
         print("Invalid operation!")
         return None
-      pass
+    pass
